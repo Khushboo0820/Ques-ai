@@ -1,68 +1,47 @@
-# Welcome to your Lovable project
+# Ques-Ai Application
 
-## Project info
+## Project Overview
+Ques-Ai is a web application built using modern frontend technologies, designed to provide an interactive and seamless user experience. This project is deployed on **Vercel** and can be accessed [here](https://ques-ai-cat3-4vwtfb4jb-khushboo-parates-projects.vercel.app/login).
 
+## Tech Stack
+- **Vite** - Fast frontend tooling
+- **TypeScript** - Strongly-typed JavaScript
+- **React** - Component-based UI framework
+- **shadcn-ui** - UI component library
+- **Tailwind CSS** - Utility-first styling
 
-## How can I edit this code?
+## Getting Started
+To run this project locally, follow these steps:
 
-There are several ways of editing your application.
+### Prerequisites
+Ensure you have **Node.js** and **npm** installed. You can install Node.js using [nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
 
-**Use Lovable**
-
-
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
+### Installation
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Navigate into the project directory
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+# Install dependencies
+npm install
 ```
 
-**Edit a file directly in GitHub**
+### Running the Project
+```sh
+# Start the development server
+npm run dev
+```
+The application will be available at `http://localhost:8080`.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Deployment
+To deploy the project, you can use **Vercel**:
+```sh
+# Install Vercel CLI (if not installed)
+npm install -g vercel
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open  and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+# Deploy the project
+vercel
+```
+Alternatively, you can use **Netlify** or other hosting platforms for deployment.
